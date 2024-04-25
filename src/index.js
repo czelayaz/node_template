@@ -9,5 +9,5 @@ app.use(bodyParser({ multipart: true, urlencoded: true }))
 app.use(router.routes())
 
 app.listen(3000, () => {
-    console.log(`Server is running on port  ${port}`)
+    console.log(`Server is running on port ${port}`)
 })
