@@ -14,3 +14,10 @@ exports.addCar = (carData) => {
     cars.push(Car)
 }
 
+exports.addIncident = (incidentData) => {
+    const Incident = {
+        "incident_id": String,
+        "incidents": [Car]
+    }
+}
+
