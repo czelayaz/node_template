@@ -14,10 +14,16 @@ exports.addCar = (carData) => {
     cars.push(Car)
 }
 
+exports.getIncidents = () => {
+    return incidents
+}
+
 exports.addIncident = (incidentData) => {
     const Incident = {
         "incident_id": String,
-        "incidents": [Car]
+        "incidents": [Car],
+        "range": Int16Array
     }
+    incidents.push(Incident)
 }
 
